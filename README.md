@@ -690,6 +690,7 @@ Donasi akan digunakan untuk pengembangan fitur baru, maintenance server, dan dok
 - **Pengembang base58** — Encoding/decoding yang efisien
 - **Semua kontributor** — Yang membantu meningkatkan tool ini
 - **Para pengguna** — Untuk feedback dan saran berharga
+- **Para Donator** - Biaya Pengembangan, Tagihan Internet dan Waktu
 
 ---
 
