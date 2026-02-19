@@ -1,7 +1,7 @@
-# 📘 README — Bitcoin wallet.dat Password Checker
+# Bitcoin Wallet Checker
 
-> **Materi Edukasi Internal** · Bahasa Indonesia  
-> Cocok untuk: pelajar kriptografi, tim forensik digital, developer blockchain
+> *Bitcoin & Litecoin · HashCat Format · SHA-512 + AES-256-CBC**
+> Enter the hash in HashCat format "$bitcoin$..." and the password you want to verify. The process is done entirely in the browser (client-side).
 
 ---
 
