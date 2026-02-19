@@ -1,4 +1,4 @@
-# 📘 README — Bitcoin wallet.dat Password Checker v2.0
+# 📘 Bitcoin wallet.dat Password Checker v2.0
 
 > **Materi Edukasi Internal** · Bahasa Indonesia  
 > Cocok untuk: pelajar kriptografi, tim forensik digital, developer blockchain
