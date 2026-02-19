@@ -687,4 +687,32 @@ Happy learning! 🚀
 
 ---
 
+## Donation
+
+### If this tool has been useful for your education and learning, donations are greatly appreciated:
+
+- **Bitcoin (BTC)** — bc1qn6t8hy8memjfzp4y3sh6fvadjdtqj64vfvlx58
+- **Ethereum (ETH)** — 0x512936ca43829C8f71017aE47460820Fe703CAea
+- **Solana (SOL)** — 6ZZrRmeGWMZSmBnQFWXG2UJauqbEgZnwb4Ly9vLYr7mi
+- **PayPal:** — syabiz@yandex.com
+
+Donations will be used for developing new features, server maintenance, and documentation.
+
+---
+
+## CONTACT
+
+- **GitHub Issues:** https://github.com/syabiz/Bitcoin-Wallet-Checker/issues
+- **Email:** syabiz@yandex.com
+- **Twitter:** @syabiz
+
+---
+
+Thank you for using the Bitcoin Wallet Checker Tool! 🚀
+*Made with ❤️ for Bitcoin education and learning*
+
+*Last updated: February 19, 2026*
+
+---
+
 *Created for internal educational use. Please use responsibly.*
