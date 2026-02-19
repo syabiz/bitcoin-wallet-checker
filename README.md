@@ -1,4 +1,5 @@
 # 📘 Bitcoin wallet.dat Password Checker v2.0
+## SHA-512 Iteratif · AES-256-CBC · PKCS7 · HashCat -m 11300
 
 > **Internal Educational Material** · English  
 > For: cryptography students, digital forensics teams, blockchain developers
