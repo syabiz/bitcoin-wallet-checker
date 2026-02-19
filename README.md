@@ -1,4 +1,4 @@
-# 📘 README — Bitcoin wallet.dat Password Checker
+# 📘 README — Bitcoin wallet.dat Password Checker v2.0
 
 > **Internal Educational Material** · English  
 > For: cryptography students, digital forensics teams, blockchain developers
