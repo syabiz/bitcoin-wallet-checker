@@ -687,4 +687,32 @@ Selamat belajar! 🚀
 
 ---
 
+## Donasi
+
+### Jika alat ini bermanfaat untuk pendidikan dan pembelajaran Anda, donasi sangat dihargai:
+
+- **Bitcoin (BTC)** — bc1qn6t8hy8memjfzp4y3sh6fvadjdtqj64vfvlx58
+- **Ethereum (ETH)** — 0x512936ca43829C8f71017aE47460820Fe703CAea
+- **Solana (SOL)** — 6ZZrRmeGWMZSmBnQFWXG2UJauqbEgZnwb4Ly9vLYr7mi
+- **PayPal:** — syabiz@yandex.com
+
+Donasi akan digunakan untuk pengembangan fitur baru, pemeliharaan server, dan dokumentasi.
+
+---
+
+## KONTAK
+
+- **Masalah GitHub:** https://github.com/syabiz/Bitcoin-Wallet-Checker/issues
+- **Email:** syabiz@yandex.com
+- **Twitter:** @syabiz
+
+---
+
+Terima kasih telah menggunakan Alat Pemeriksa Dompet Bitcoin! 🚀
+*Dibuat dengan ❤️ untuk pendidikan dan pembelajaran Bitcoin*
+
+*Terakhir diperbarui: 19 Februari 2026*
+
+---
+
 *Dibuat untuk keperluan edukasi internal. Harap digunakan secara bertanggung jawab.*
