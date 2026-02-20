@@ -236,26 +236,26 @@ Fix — Validasi ketat Bitcoin-specific:
 Ketika kamu mengenkripsi wallet di Bitcoin Core, program tidak langsung mengenkripsi private key dengan passwordmu. Ada beberapa lapisan:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                  ARSITEKTUR ENKRIPSI WALLET                  │
-│                                                             │
-│  PASSWORD (teks biasa dari pengguna)                        │
-│       │                                                     │
-│       ▼                                                     │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │  KDF: SHA-512 Iteratif + Salt (N kali iterasi)      │   │
-│  │  → Menghasilkan: Key (32 byte) + IV (16 byte)       │   │
-│  └─────────────────────────────────────────────────────┘   │
-│       │                                                     │
-│       ▼                                                     │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │  AES-256-CBC Dekripsi pada Master Key Terenkripsi   │   │
-│  └─────────────────────────────────────────────────────┘   │
-│       │                                                     │
-│       ▼                                                     │
-│  Master Key (plaintext) → digunakan mengenkripsi            │
-│  semua Private Key di dalam wallet                          │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────┐
+│                  ARSITEKTUR ENKRIPSI WALLET               │
+│                                                           │
+│  PASSWORD (teks biasa dari pengguna)                      │
+│       │                                                   │
+│       ▼                                                   │
+│  ┌─────────────────────────────────────────────────────┐  │
+│  │  KDF: SHA-512 Iteratif + Salt (N kali iterasi)      │  │
+│  │  → Menghasilkan: Key (32 byte) + IV (16 byte)       │  │
+│  └─────────────────────────────────────────────────────┘  │
+│       │                                                   │
+│       ▼                                                   │
+│  ┌─────────────────────────────────────────────────────┐  │
+│  │  AES-256-CBC Dekripsi pada Master Key Terenkripsi   │  │
+│  └─────────────────────────────────────────────────────┘  │
+│       │                                                   │
+│       ▼                                                   │
+│  Master Key (plaintext) → digunakan mengenkripsi          │
+│  semua Private Key di dalam wallet                        │
+└───────────────────────────────────────────────────────────┘
 ```
 
 **Konsep Penting:**
