@@ -235,26 +235,26 @@ Fix — Bitcoin-specific strict validation:
 When you encrypt a wallet in Bitcoin Core, the program does not directly encrypt the private key with your password. There are multiple layers:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                  WALLET ENCRYPTION ARCHITECTURE              │
-│                                                             │
-│  PASSWORD (plaintext from user)                             │
-│       │                                                     │
-│       ▼                                                     │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │  KDF: SHA-512 Iterative + Salt (N iterations)       │   │
-│  │  → Produces: Key (32 bytes) + IV (16 bytes)         │   │
-│  └─────────────────────────────────────────────────────┘   │
-│       │                                                     │
-│       ▼                                                     │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │  AES-256-CBC Decrypt on Encrypted Master Key        │   │
-│  └─────────────────────────────────────────────────────┘   │
-│       │                                                     │
-│       ▼                                                     │
-│  Master Key (plaintext) → used to encrypt                   │
-│  all Private Keys inside the wallet                         │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────┐
+│               WALLET ENCRYPTION ARCHITECTURE              │
+│                                                           │
+│  PASSWORD (plaintext from user)                           │
+│       │                                                   │
+│       ▼                                                   │
+│  ┌─────────────────────────────────────────────────────┐  │
+│  │  KDF: SHA-512 Iterative + Salt (N iterations)       │  │
+│  │  → Produces: Key (32 bytes) + IV (16 bytes)         │  │
+│  └─────────────────────────────────────────────────────┘  │
+│       │                                                   │
+│       ▼                                                   │
+│  ┌─────────────────────────────────────────────────────┐  │
+│  │  AES-256-CBC Decrypt on Encrypted Master Key        │  │
+│  └─────────────────────────────────────────────────────┘  │
+│       │                                                   │
+│       ▼                                                   │
+│  Master Key (plaintext) → used to encrypt                 │
+│  all Private Keys inside the wallet                       │
+└───────────────────────────────────────────────────────────┘
 ```
 
 **Key Concepts:**
